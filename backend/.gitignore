@@ -1,0 +1,51 @@
+# Other editors directories and settings
+.idea/
+.vscode/
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Docker stuff
+/docker/postgres/data
+/docker/postgres/initdb.d
+/docker/nginx/logs
+/docker/nginx/nginx.conf
+
+
+/.env
+
+# Composer phar in case you don't have it installed globally
+composer.phar
+
+# Backup entities generated with doctrine generate:entities command
+**/Entity/*~
+
+# As a part of best practices followed with this https://gist.github.com/Potherca/15c078ed0c0bf8e5249a166e057ad51a gist, phpunit.xml is excluded from the repository.
+/app/phpunit.xml
+/phpunit.xml
+!/phpunit.xml.dist
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###

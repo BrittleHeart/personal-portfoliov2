@@ -1,0 +1,15 @@
+**/Dockerfile
+**/docker-compose.*.yaml
+**/docker-compose.*.yml
+**/docker-compose.yaml
+**/docker-compose.yml
+./docker/nginx/logs/**/*.log
+**/*.md
+.gitignore
+.git
+var/
+vendor/
+.editorconfig
+.github/
+**/*.cache
+**/.DS_Store
