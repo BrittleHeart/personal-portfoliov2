@@ -67,7 +67,7 @@ COPY composer.json .
 
 RUN if  [ ! -d "vendor" ] ; then \
   composer install \
-;fi
+  ;fi
 
 EXPOSE 9000
 
